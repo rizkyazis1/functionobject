@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let marmut = [
+            {
+            nama : 'marmutman',
+            kelamin : 'jantan',
+            sapa : function (){
+                return 'haloo, namaku '+ this.nama+', cit cit' ;
+            }  
+        },
+
+        {
+            nama : 'hulk',
+            kelamin : 'jantan',
+            sapa : function (){
+                return 'haloo, namaku '+ this.nama+', cit cit' ;
+            }  
+        },
+    ]
+    document.write(marmut[0].sapa())
+    </script>
+</body>
+</html>
